@@ -1,0 +1,219 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/justi/De_MS/Animation_Test_001_BackUP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63295
+Successfully changed project path to: C:/Users/justi/De_MS/Animation_Test_001_BackUP
+C:/Users/justi/De_MS/Animation_Test_001_BackUP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 301.59 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 6.55 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/justi/De_MS/Animation_Test_001_BackUP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 Laptop GPU (ID=0x2757)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.3598
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007893 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 204.43 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (81ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (205ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015263 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\justi\De_MS\Animation_Test_001_BackUP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\justi\De_MS\Animation_Test_001_BackUP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 191.41 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.82.0
+Mono: successfully reloaded assembly
+- Completed reload, in  3.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3127ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (2710ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (832ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (169ms)
+			SetupLoadedEditorAssemblies (1434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (192ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (925ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 7384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (0.9 MB). Loaded Objects now: 7814.
+Memory consumption went from 295.8 MB to 294.9 MB.
+Total: 8.139100 ms (FindLiveObjects: 0.589900 ms CreateObjectMapping: 0.278600 ms MarkObjects: 6.413500 ms  DeleteObjects: 0.855200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1540601.565987 seconds.
+  path: Assets/AdjuvantsSpace/InvertedSphereGenerator.prefab
+  artifactKey: Guid(3192a4192d9084e719365f487ebbd0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdjuvantsSpace/InvertedSphereGenerator.prefab using Guid(3192a4192d9084e719365f487ebbd0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f65b60ab31ed281c72ef2013534b16') in 0.071581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.309099 seconds.
+  path: Assets/VrSceneLoader/VRSceneManager.prefab
+  artifactKey: Guid(4431af8f2d91d114d8c9972deeb72727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VrSceneLoader/VRSceneManager.prefab using Guid(4431af8f2d91d114d8c9972deeb72727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084a8f251e3a548794d64281e4bdf730') in 0.012724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.191096 seconds.
+  path: Assets/VrSceneLoader/VrSceneFadeScreen.prefab
+  artifactKey: Guid(208c462b841905d41800664aaa641808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VrSceneLoader/VrSceneFadeScreen.prefab using Guid(208c462b841905d41800664aaa641808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c233728d8ce8568a8916f99ddf3f3c3') in 0.436390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.266272 seconds.
+  path: Assets/AdjuvantsSpace/InvertedSphereGenerator.cs
+  artifactKey: Guid(1fa9df0d757d742cd94cc53ca1dbcf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdjuvantsSpace/InvertedSphereGenerator.cs using Guid(1fa9df0d757d742cd94cc53ca1dbcf0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de93c426831d2a92ee166ba396031df') in 0.017779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.534500 seconds.
+  path: Assets/AdjuvantsSpace/TransparencyAdjustment.cs
+  artifactKey: Guid(1bb1635fc5223484191f14d70c6d8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdjuvantsSpace/TransparencyAdjustment.cs using Guid(1bb1635fc5223484191f14d70c6d8dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927b5cac226b6bcc682af9cff074a7ca') in 0.004815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.620604 seconds.
+  path: Assets/TimelineAssets/Tresco_Cutscene.playable
+  artifactKey: Guid(dc43f2803fcac8340b88972c83c7feca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TimelineAssets/Tresco_Cutscene.playable using Guid(dc43f2803fcac8340b88972c83c7feca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138c7833f37e884f513dc579078698d9') in 0.440602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.379753 seconds.
+  path: Assets/TimelineAssets/Tresco_Cutscene 1.playable
+  artifactKey: Guid(8c815df9ef472e146957b117d4d1f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TimelineAssets/Tresco_Cutscene 1.playable using Guid(8c815df9ef472e146957b117d4d1f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b4a0967dd698d6ccc2dcd29803a8c3') in 0.491426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.850587 seconds.
+  path: Assets/TimelineAssets/Tresco_Cutscene TD Edit.playable
+  artifactKey: Guid(8c815df9ef472e146957b117d4d1f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TimelineAssets/Tresco_Cutscene TD Edit.playable using Guid(8c815df9ef472e146957b117d4d1f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4ae1ef10f39eb1a1cfcdcc2ee2fbf9') in 0.531400 seconds 

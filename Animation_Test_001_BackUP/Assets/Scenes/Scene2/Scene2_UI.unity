@@ -1254,6 +1254,74 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1034181375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987637, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8291015876594987639, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+      propertyPath: m_Name
+      value: VRSceneManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+--- !u!114 &1034181376 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8291015876594987636, guid: 4431af8f2d91d114d8c9972deeb72727, type: 3}
+  m_PrefabInstance: {fileID: 1034181375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a6dd28614a61749afda798b2f58686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1085444349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,16 +1644,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1806035980}
-        m_TargetAssemblyTypeName: FadeToBlackScene, Assembly-CSharp
-        m_MethodName: DoFade
-        m_Mode: 1
+      - m_Target: {fileID: 1034181376}
+        m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
+        m_MethodName: GoToSceneAsync
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: Aninmation_Cut_Scene
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1484602545
