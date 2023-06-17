@@ -608,6 +608,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/VrSceneLoader/FadeManager.cs"
 "Assets/VrSceneLoader/SceneTransitionManager.cs"
 "Assets/VrSceneLoader/VRSceneLoadAfterDuration.cs"
 "Assets/XRTerra_ObjectFaceCamera.cs"

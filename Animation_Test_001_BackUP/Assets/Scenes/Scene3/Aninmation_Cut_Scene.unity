@@ -2291,6 +2291,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154604296}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &166844390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2146177183180814146, guid: 208c462b841905d41800664aaa641808, type: 3}
+  m_PrefabInstance: {fileID: 953338238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &166844391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+  m_PrefabInstance: {fileID: 953338238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &166844393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166844390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6710f112678a64780ad7c13675f0c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOnStart: 0
+  fadeDuration: 2
+  fadeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!95 &166844396
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166844390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &167596883
 GameObject:
   m_ObjectHideFlags: 0
@@ -7596,7 +7641,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 166844391}
   m_Father: {fileID: 1204597099}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10267,6 +10313,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931783162}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &953338238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 719956801}
+    m_Modifications:
+    - target: {fileID: 2146177183180814146, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_Name
+      value: VrSceneFadeScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995137559006217208, guid: 208c462b841905d41800664aaa641808, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 208c462b841905d41800664aaa641808, type: 3}
 --- !u!1 &955827439
 GameObject:
   m_ObjectHideFlags: 0
@@ -13406,50 +13509,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Events:
     m_Signals:
-    - {fileID: 11400000, guid: 4ef4747c03ee5174aaad6e8582c5eecb, type: 2}
-    - {fileID: 11400000, guid: 7f0477a5bff4b6641a8769b9489404ad, type: 2}
     - {fileID: 11400000, guid: d6ab685fd69256745b7f90b212e56eed, type: 2}
     m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1209906055}
-          m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
-          m_MethodName: FadeOut
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 1
-        - m_Target: {fileID: 1209906055}
-          m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
-          m_MethodName: DestroyFade
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1209906055}
-          m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
-          m_MethodName: FadeIn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1209906055}
@@ -14058,6 +14119,8 @@ PlayableDirector:
     value: {fileID: 1803939081}
   - key: {fileID: -3316173296612807737, guid: dc43f2803fcac8340b88972c83c7feca, type: 2}
     value: {fileID: 1209906054}
+  - key: {fileID: -1829216518334915702, guid: dc43f2803fcac8340b88972c83c7feca, type: 2}
+    value: {fileID: 166844396}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1272696475
