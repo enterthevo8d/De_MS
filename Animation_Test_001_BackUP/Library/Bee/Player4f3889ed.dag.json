@@ -1422,8 +1422,7 @@
         1414,
         1415,
         1416,
-        1417,
-        1418
+        1417
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -28918,17 +28917,6 @@
       "DebugActionIndex": 1414
     },
     {
-      "Annotation": "WriteText C:/Users/justi/De_MS/Animation_Test_001_BackUP/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "unityLibrary/src/main/assets/bin/Data\r\nunityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so\r\nunityLibrary/src/main/jniLibs/arm64-v8a/libmain.so\r\n",
-      "Inputs": [],
-      "Outputs": [
-        "C:/Users/justi/De_MS/Animation_Test_001_BackUP/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1415
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_049j.info",
       "ActionType": "WriteTextFile",
       "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.GuidGenerator\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.10f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/justi/De_MS/Animation_Test_001_BackUP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid\"],\"inputs\":[\"Library/PlayerDataCache/Android5/Data/boot.config\",\"Library/PlayerDataCache/Android5/Data/data.unity3d\",\"Library/PlayerDataCache/Android5/Data/RuntimeInitializeOnLoads.json\",\"Library/PlayerDataCache/Android5/Data/ScriptingAssemblies.json\",\"Library/PlayerDataCache/Android5/Data/sharedassets0.resource\",\"Library/PlayerDataCache/Android5/Data/sharedassets1.resource\",\"Library/PlayerDataCache/Android5/Data/sharedassets2.resource\",\"Library/PlayerDataCache/Android5/Data/sharedassets4.resource\",\"Temp/StagingArea/Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json\",\"C:/Users/justi/De_MS/Animation_Test_001_BackUP/Library/Bee/artifacts/Android/il2cppOutput/data/Metadata/global-metadata.dat\",\"C:/Users/justi/De_MS/Animation_Test_001_BackUP/Library/Bee/artifacts/Android/il2cppOutput/data/Resources/mscorlib.dll-resources.dat\",\"C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/Data/unity default resources\"],\"targetDirectories\":[]}}",
@@ -28937,7 +28925,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_049j.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1416
+      "DebugActionIndex": 1415
     },
     {
       "Annotation": "GuidGenerator C:/Users/justi/De_MS/Animation_Test_001_BackUP/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -28969,11 +28957,11 @@
       ],
       "ToBuildDependencies": [
         177,
-        1416
+        1415
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1417
+      "DebugActionIndex": 1416
     },
     {
       "Annotation": "Player",
@@ -29673,11 +29661,10 @@
         1400,
         1402,
         1411,
-        1415,
-        1417
+        1416
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1418
+      "DebugActionIndex": 1417
     }
   ],
   "FileSignatures": [
@@ -30230,7 +30217,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 1418
+          "Player": 1417
         }
 ,  "DefaultNodes": [
     0

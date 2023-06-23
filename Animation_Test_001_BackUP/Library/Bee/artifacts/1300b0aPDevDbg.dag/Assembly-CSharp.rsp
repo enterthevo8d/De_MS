@@ -496,6 +496,7 @@
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
 "Assets/SceneTransitions/Scripts/SceneTransition.cs"
 "Assets/SceneTransitions/Scripts/TransitionExample.cs"
+"Assets/Scripts/ColliderEvent.cs"
 "Assets/Scripts/LightFlickerEffect.cs"
 "Assets/Scripts/SceneManager/FadeToBlackScene.cs"
 "Assets/Scripts/SceneManager/SceneLoader.cs"
