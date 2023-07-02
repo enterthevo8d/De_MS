@@ -17,7 +17,7 @@ MonoBehaviour:
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
   windowTime: 37.71666666666667
-  verticalScroll: 214
+  verticalScroll: 0
   sequencerHeaderWidth: 315
   m_Keys:
   - {fileID: 2584829864381573052, guid: dc43f2803fcac8340b88972c83c7feca, type: 2}
@@ -177,7 +177,7 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 286
-    lastInlineCurveDataID: 43072
+    lastInlineCurveDataID: 37820
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: e7ff3fe8

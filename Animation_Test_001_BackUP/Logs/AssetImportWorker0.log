@@ -15,7 +15,7 @@ C:/Users/justi/De_MS/Animation_Test_001_BackUP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49725
+53226
 Successfully changed project path to: C:/Users/justi/De_MS/Animation_Test_001_BackUP
 C:/Users/justi/De_MS/Animation_Test_001_BackUP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/justi/De_MS/Animation_Test_001_BackUP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 93.81 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Refreshing native plugins compatible for Editor in 107.86 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/justi/De_MS/Animation_Test_001_BackUP/Assets
@@ -64,54 +64,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002956 seconds.
+Registered in 0.003880 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 91.14 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 92.86 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.404 seconds
+- Completed reload, in  0.432 seconds
 Domain Reload Profiling:
-	ReloadAssembly (405ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (432ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (306ms)
-			LoadAssemblies (39ms)
+		EndReloadAssembly (320ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (56ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (205ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (93ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005573 seconds.
-Android Extension - Scanning For ADB Devices 672 ms
+Registered in 0.005686 seconds.
+Android Extension - Scanning For ADB Devices 700 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\justi\De_MS\Animation_Test_001_BackUP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\justi\De_MS\Animation_Test_001_BackUP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 93.13 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 98.54 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
@@ -120,44 +120,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.82.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  1.131 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1023ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (511ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (567ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 7386 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 86 unused Assets / (0.9 MB). Loaded Objects now: 7816.
-Memory consumption went from 295.9 MB to 295.0 MB.
-Total: 3.244700 ms (FindLiveObjects: 0.312200 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.517900 ms  DeleteObjects: 0.288400 ms)
+Memory consumption went from 295.9 MB to 294.9 MB.
+Total: 3.623400 ms (FindLiveObjects: 0.482100 ms CreateObjectMapping: 0.187500 ms MarkObjects: 2.610800 ms  DeleteObjects: 0.342000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,19 +172,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 312901.558054 seconds.
-  path: Assets/Decals/Materials
-  artifactKey: Guid(3a9f9f74a50295e4780f8d1fa33819e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/Materials using Guid(3a9f9f74a50295e4780f8d1fa33819e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890aee67f0e25db3fab758a25b210548') in 0.007392 seconds 
+  Time since last request: 322504.464287 seconds.
+  path: Assets/Scenes/Scene4/Maze_Scene.unity
+  artifactKey: Guid(1692c55fca7870c479fdcb78ac4d6bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene4/Maze_Scene.unity using Guid(1692c55fca7870c479fdcb78ac4d6bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033aff7de9133126093fd8fb94dd7b01') in 0.008359 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.63 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7816.
+Memory consumption went from 134.4 MB to 133.5 MB.
+Total: 4.058400 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.202700 ms MarkObjects: 3.180300 ms  DeleteObjects: 0.295300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1031.994014 seconds.
-  path: Assets/Decals/PNGs
-  artifactKey: Guid(5105b8b0bbe691e479d6882bf73678aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs using Guid(5105b8b0bbe691e479d6882bf73678aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2c00c7742e03b31f5b21750eb6aa9a') in 0.001374 seconds 
+  Time since last request: 5160.477940 seconds.
+  path: Assets/Decals/PNGs/Regain Your Smile.png
+  artifactKey: Guid(16cd2848c575a9c48bdac09524a356cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Regain Your Smile.png using Guid(16cd2848c575a9c48bdac09524a356cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141a259f1e06a84e9192cfedfd4e8b0c') in 0.250720 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.580472 seconds.
+  Time since last request: 27.138744 seconds.
+  path: Assets/Decals/PNGs/Regain Your Smile.png
+  artifactKey: Guid(16cd2848c575a9c48bdac09524a356cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Regain Your Smile.png using Guid(16cd2848c575a9c48bdac09524a356cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a1025f709ff06f26b137403763b33c') in 0.014125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 930.474419 seconds.
+  path: Assets/Decals/PNGs/Piss On Pity.png
+  artifactKey: Guid(f5e3ea960c094cd4cbe7403b4def578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Piss On Pity.png using Guid(f5e3ea960c094cd4cbe7403b4def578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ace83eb0d8b5c7ee6b09147b96cc12') in 0.018781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.389790 seconds.
   path: Assets/Decals/PNGs/Piss On Pity.psd
   artifactKey: Guid(76dd0e692f59e6a46acc3e806ed35d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/Piss On Pity.psd using Guid(76dd0e692f59e6a46acc3e806ed35d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c20da8ca76ab8fda4e9821da5f0e3f') in 0.069847 seconds 
+Start importing Assets/Decals/PNGs/Piss On Pity.psd using Guid(76dd0e692f59e6a46acc3e806ed35d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339327450f626c53335242e521bf45d0') in 0.019750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 266.299225 seconds.
+  path: Assets/Decals/PNGs/B-Positive Decal.psd
+  artifactKey: Guid(59ec249fd9155f146a550bcf0241433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/B-Positive Decal.psd using Guid(59ec249fd9155f146a550bcf0241433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372fb78322e7632544e07811a03c3135') in 0.016982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 520.140722 seconds.
+  path: Assets/Decals/PNGs/Zer0.psd
+  artifactKey: Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Zer0.psd using Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe80857f1a42ce84fa93754be2ad22a2') in 0.014338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.431576 seconds.
+  path: Assets/Decals/PNGs/Zer0.psd
+  artifactKey: Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Zer0.psd using Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5dc33d1212e5a5ad289f0630bac7ca') in 0.008939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.062494 seconds.
+  path: Assets/Decals/PNGs/Zer0.psd
+  artifactKey: Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Zer0.psd using Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b17b47aba410a85591fc7826050bb3') in 0.059590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.960701 seconds.
+  path: Assets/Decals/PNGs/Zer0.psd
+  artifactKey: Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Zer0.psd using Guid(fb2604e546d87e6408070abcf6725d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305aeed8c583a3141155b62862a1706c') in 0.015836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 708.773714 seconds.
+  path: Assets/Decals/PNGs/Umbrella Emoji.psd
+  artifactKey: Guid(298f0463d52bc284d8b71f8a620e8035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decals/PNGs/Umbrella Emoji.psd using Guid(298f0463d52bc284d8b71f8a620e8035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b3843e707b89b2dedcd8b93bb6f9f') in 0.014595 seconds 

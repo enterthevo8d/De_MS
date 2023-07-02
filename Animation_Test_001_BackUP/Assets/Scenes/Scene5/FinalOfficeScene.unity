@@ -2876,7 +2876,7 @@ GameObject:
   - component: {fileID: 1700128213}
   - component: {fileID: 1700128212}
   m_Layer: 0
-  m_Name: Decal01
+  m_Name: Decal_DWP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2902,7 +2902,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dfa53b785f15f4347b6e5bb0b8ca2ec1, type: 2}
+  - {fileID: 2100000, guid: 82f2fb8c6eac3d84ebcc07b87b7c4ff7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2940,7 +2940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700128211}
   m_LocalRotation: {x: 0.0030542875, y: 0, z: 0, w: 0.99999535}
-  m_LocalPosition: {x: 2.69, y: 2.242, z: -7.53}
+  m_LocalPosition: {x: 2.69, y: 2.24, z: -7.47}
   m_LocalScale: {x: 1.9016, y: 1.9016, z: 1.9016}
   m_ConstrainProportionsScale: 0
   m_Children: []
