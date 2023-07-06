@@ -15,7 +15,7 @@ C:/Users/justi/De_MS/Animation_Test_001_BackUP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60129
+52096
 Successfully changed project path to: C:/Users/justi/De_MS/Animation_Test_001_BackUP
 C:/Users/justi/De_MS/Animation_Test_001_BackUP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/justi/De_MS/Animation_Test_001_BackUP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 104.20 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
+Refreshing native plugins compatible for Editor in 266.45 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.09 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/justi/De_MS/Animation_Test_001_BackUP/Assets
@@ -64,54 +64,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003355 seconds.
+Registered in 0.008627 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 95.61 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
+Refreshing native plugins compatible for Editor in 249.56 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.428 seconds
+- Completed reload, in  1.136 seconds
 Domain Reload Profiling:
-	ReloadAssembly (429ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (1137ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (324ms)
-			LoadAssemblies (42ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (213ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (560ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (93ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (250ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004695 seconds.
+Registered in 0.013970 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\justi\De_MS\Animation_Test_001_BackUP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\justi\De_MS\Animation_Test_001_BackUP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 98.74 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 258.71 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -119,44 +119,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.82.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
+- Completed reload, in  2.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1144ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (2771ms)
+		BeginReloadAssembly (287ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (906ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (2286ms)
+			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (547ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (543ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (1345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (259ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (727ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 7386 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 86 unused Assets / (0.9 MB). Loaded Objects now: 7816.
-Memory consumption went from 295.8 MB to 294.9 MB.
-Total: 4.646200 ms (FindLiveObjects: 0.358700 ms CreateObjectMapping: 0.177500 ms MarkObjects: 3.746500 ms  DeleteObjects: 0.362800 ms)
+Memory consumption went from 296.2 MB to 295.3 MB.
+Total: 6.900100 ms (FindLiveObjects: 0.606000 ms CreateObjectMapping: 0.463100 ms MarkObjects: 5.174400 ms  DeleteObjects: 0.654800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,352 +171,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 583941.120008 seconds.
-  path: Assets/Models/Brain/Brain.fbx
-  artifactKey: Guid(ae3cb5273cb896f469a6286953ac2670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Brain/Brain.fbx using Guid(ae3cb5273cb896f469a6286953ac2670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334468e9976e8888ad06544e733a2815') in 0.255639 seconds 
+  Time since last request: 662024.682991 seconds.
+  path: Assets/Audio/SFX/CRUTCHES_T3_2.aup3
+  artifactKey: Guid(f8b3a370fbf6abf439d83e6c66816fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/SFX/CRUTCHES_T3_2.aup3 using Guid(f8b3a370fbf6abf439d83e6c66816fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf7586dbf845cba24f48497168f6368') in 0.065356 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 389.549773 seconds.
-  path: Assets/Models/Brain/Brain.prefab
-  artifactKey: Guid(5e44998148adfac4080d006f84821cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Brain/Brain.prefab using Guid(5e44998148adfac4080d006f84821cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f1a280366c3b5806c6f0f1cb4e0c2') in 0.022592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 754.011333 seconds.
-  path: Assets/Models/Brain/Brain.fbx
-  artifactKey: Guid(ae3cb5273cb896f469a6286953ac2670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Brain/Brain.fbx using Guid(ae3cb5273cb896f469a6286953ac2670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb62156ec6e8fb574f98bc59cee52b1f') in 0.045632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.707361 seconds.
-  path: Assets/Models/Brain/Brain.prefab
-  artifactKey: Guid(5e44998148adfac4080d006f84821cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Brain/Brain.prefab using Guid(5e44998148adfac4080d006f84821cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6db49344282f15db80e5cc6e4366cb') in 0.013375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1790.538144 seconds.
-  path: Assets/Posters/Artwork/Foot Scan_.png
-  artifactKey: Guid(696806a0850cb1b46b08a62c1d3800f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Posters/Artwork/Foot Scan_.png using Guid(696806a0850cb1b46b08a62c1d3800f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd7d940ba63543ac4306a2d75bfa408') in 0.048447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.663682 seconds.
-  path: Assets/Posters/Artwork/Foot Scan.png
-  artifactKey: Guid(696806a0850cb1b46b08a62c1d3800f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Posters/Artwork/Foot Scan.png using Guid(696806a0850cb1b46b08a62c1d3800f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567865729093d86f6ff9876b6087a181') in 0.013040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1434.872105 seconds.
-  path: Assets/Models/Skull
-  artifactKey: Guid(fec5962a9300d4143aa44f7c921ec158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Skull using Guid(fec5962a9300d4143aa44f7c921ec158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565507a35d145e0668ffd519135db086') in 0.001500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 206.222000 seconds.
-  path: Assets/Models/Skull/SKULL4UNITY_UV.fbx
-  artifactKey: Guid(1b7235d3e8fd53145a8c9aac839ec9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Skull/SKULL4UNITY_UV.fbx using Guid(1b7235d3e8fd53145a8c9aac839ec9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbeafd74a86ed42c9f3e6d4b98ffc35') in 0.046631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3282.104039 seconds.
-  path: Assets/Models/Skull/SKULL4UNITY_UV.prefab
-  artifactKey: Guid(38e543fc938a8fd42bd2f50f011c4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Skull/SKULL4UNITY_UV.prefab using Guid(38e543fc938a8fd42bd2f50f011c4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cbbff82cc69640cbd2a4d2fa996df5') in 0.025386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2924.977841 seconds.
-  path: Assets/Decals/PNGs/Maximus Kills.png
-  artifactKey: Guid(6da4a2b518d615346a80be172277a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/Maximus Kills.png using Guid(6da4a2b518d615346a80be172277a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c632c8ae82f22f140c5b607d160c265') in 0.021847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.175494 seconds.
-  path: Assets/Decals/PNGs/CAPITA Kills.png
-  artifactKey: Guid(8633b552b285c3a4998324d4c96f9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/CAPITA Kills.png using Guid(8633b552b285c3a4998324d4c96f9c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f385e99d53cd5c9d13f1e5e1845c276') in 0.010585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.617056 seconds.
-  path: Assets/Decals/PNGs/ATOS Kills.png
-  artifactKey: Guid(364d7836466be234e987887f566bdc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/ATOS Kills.png using Guid(364d7836466be234e987887f566bdc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fb7133507e6f7315bf17038a470022') in 0.014722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1243.009026 seconds.
-  path: Assets/Scenes/Scene4/Maze_Scene.unity
-  artifactKey: Guid(1692c55fca7870c479fdcb78ac4d6bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene4/Maze_Scene.unity using Guid(1692c55fca7870c479fdcb78ac4d6bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f55a10a41b575599990ecb787b262d') in 0.001545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2896.310702 seconds.
-  path: Assets/VideoClips
-  artifactKey: Guid(1842d3b78ce8249d8b1596ff1af1405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips using Guid(1842d3b78ce8249d8b1596ff1af1405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b100e1bc2e43f3c4d4c525a245e37e19') in 0.002695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.517525 seconds.
-  path: Assets/VideoClips/QUALIA.mp4
-  artifactKey: Guid(55ff3d2f8e8e75840b73d0ae9b24fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/QUALIA.mp4 using Guid(55ff3d2f8e8e75840b73d0ae9b24fdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2208909527a4e5d74181f629c2985fe7') in 0.043074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1204.166214 seconds.
-  path: Assets/Decals/PNGs/RedX.png
-  artifactKey: Guid(270f460e86464694d9175594b28b283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/RedX.png using Guid(270f460e86464694d9175594b28b283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c514b00ca9afd6ab84ea59103a1bb7a7') in 0.035298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.364349 seconds.
-  path: Assets/Decals/PNGs/DoNotEnter.png
-  artifactKey: Guid(c9267347978528d44b82d3d4a2ece2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/DoNotEnter.png using Guid(c9267347978528d44b82d3d4a2ece2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde4dc6a794d32ef911c532a42878ff6') in 0.012471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.699766 seconds.
-  path: Assets/Decals/PNGs/DoNotEnter.png
-  artifactKey: Guid(c9267347978528d44b82d3d4a2ece2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/DoNotEnter.png using Guid(c9267347978528d44b82d3d4a2ece2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceae5fe4decc98611c319e0f93e8197') in 0.013650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.345226 seconds.
-  path: Assets/Decals/PNGs/RedX.png
-  artifactKey: Guid(270f460e86464694d9175594b28b283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Decals/PNGs/RedX.png using Guid(270f460e86464694d9175594b28b283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d514ab8ad12646b1c1e41d4fc0df3d8') in 0.012384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2644.554439 seconds.
-  path: Assets/VideoClips/George Osbourne Speech 2010.mov
-  artifactKey: Guid(58a2821c03f30ea45924e131d17c8f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osbourne Speech 2010.mov using Guid(58a2821c03f30ea45924e131d17c8f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3aa5f4412dc893f4f64ab430fa17f83') in 0.005914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.842497 seconds.
-  path: Assets/VideoClips/Glenda Jackson.mov
-  artifactKey: Guid(391592bb12521a34f931e2ac26b9efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/Glenda Jackson.mov using Guid(391592bb12521a34f931e2ac26b9efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e86275b55027ea7e7a3167b26ac84ff') in 0.002297 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.61 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7943.
-Memory consumption went from 141.7 MB to 140.8 MB.
-Total: 41.891700 ms (FindLiveObjects: 0.457400 ms CreateObjectMapping: 0.212500 ms MarkObjects: 40.805600 ms  DeleteObjects: 0.415100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2380.090810 seconds.
-  path: Assets/VideoClips/Glenda Jackson.mp4
-  artifactKey: Guid(bc9cd5be49ba75849984cc4b4d3bd4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/Glenda Jackson.mp4 using Guid(bc9cd5be49ba75849984cc4b4d3bd4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ab9ea877f3904107c41f8122d46224') in 0.036784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.949771 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010_1.mp4
-  artifactKey: Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010_1.mp4 using Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a83eb646a0c8b9ef764f4db4f7f270') in 0.001627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.751167 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010.mp4
-  artifactKey: Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010.mp4 using Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75b7f3545a3a635744e9acf9205857a') in 0.001500 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.70 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7943.
-Memory consumption went from 141.8 MB to 140.9 MB.
-Total: 4.899100 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.133500 ms MarkObjects: 4.107500 ms  DeleteObjects: 0.302300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 655.019874 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010.mp4
-  artifactKey: Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010.mp4 using Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8cae7c5b42349cf883abf7945fbb4f') in 0.011083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 637.868219 seconds.
-  path: Assets/Posters/Artwork/NIL BY MOUTH.png
-  artifactKey: Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Posters/Artwork/NIL BY MOUTH.png using Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df1711b1646202f825c88c8e55b2f4c') in 0.103463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.134343 seconds.
-  path: Assets/Posters/Artwork/NIL BY MOUTH.png
-  artifactKey: Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Posters/Artwork/NIL BY MOUTH.png using Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4166ffe2535c1e77123147ef593e0a94') in 0.064715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.874239 seconds.
-  path: Assets/Posters/Artwork/Nil By Mouth.png
-  artifactKey: Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Posters/Artwork/Nil By Mouth.png using Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d457dc8a5c16c54b9ffa90c8f85394') in 0.043775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.185045 seconds.
-  path: Assets/Posters/Artwork/Nil By Mouth.png
-  artifactKey: Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Posters/Artwork/Nil By Mouth.png using Guid(4ed2b1ac0588f544c9344d58aa2dc345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2ac36eb2f2814747685f326256fc32') in 0.281591 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.05 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7946.
-Memory consumption went from 141.9 MB to 141.0 MB.
-Total: 4.601400 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.124200 ms MarkObjects: 3.835800 ms  DeleteObjects: 0.305100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 419.355038 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010.mp4
-  artifactKey: Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010.mp4 using Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72134a9f7ab5f17396978841540f5bab') in 0.009713 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.85 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7946.
-Memory consumption went from 141.9 MB to 141.0 MB.
-Total: 5.718000 ms (FindLiveObjects: 0.457500 ms CreateObjectMapping: 0.137200 ms MarkObjects: 4.710500 ms  DeleteObjects: 0.411700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 330.557076 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010.mp4
-  artifactKey: Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010.mp4 using Guid(447935d64c1141945bc37f04ab6edca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d4954df6b42cd06ea37e5a70b50ecb') in 0.008978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 633.902400 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010_1.mp4
-  artifactKey: Guid(ffca1733a30dcb048a17b2ba46a28424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010_1.mp4 using Guid(ffca1733a30dcb048a17b2ba46a28424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7bae1c70147f73b640a84cf29d6701') in 0.001952 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.27 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7946.
-Memory consumption went from 141.9 MB to 141.0 MB.
-Total: 4.853000 ms (FindLiveObjects: 0.321100 ms CreateObjectMapping: 0.131500 ms MarkObjects: 4.080300 ms  DeleteObjects: 0.319200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1871.377008 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010_1.mov
-  artifactKey: Guid(cad1770a727fbe048a62baa65441918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010_1.mov using Guid(cad1770a727fbe048a62baa65441918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1ccaf08272d5196010082c7ae0cc08') in 0.016769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.964194 seconds.
-  path: Assets/VideoClips/George Osboune Speech 2010_1.mov
-  artifactKey: Guid(cad1770a727fbe048a62baa65441918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VideoClips/George Osboune Speech 2010_1.mov using Guid(cad1770a727fbe048a62baa65441918d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de01f840cd5b721df2bfaa641783aa5a') in 0.001314 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.39 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7946.
-Memory consumption went from 141.9 MB to 141.0 MB.
-Total: 4.912200 ms (FindLiveObjects: 0.366500 ms CreateObjectMapping: 0.195200 ms MarkObjects: 3.918300 ms  DeleteObjects: 0.431400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.52 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 7946.
-Memory consumption went from 141.9 MB to 141.0 MB.
-Total: 4.566000 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 0.126600 ms MarkObjects: 3.753400 ms  DeleteObjects: 0.313100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 4015.398636 seconds.
+  path: Assets/Posters/Artwork/Lucio US.png
+  artifactKey: Guid(39849e8f47032cb4e82650909a422ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Posters/Artwork/Lucio US.png using Guid(39849e8f47032cb4e82650909a422ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622fb17ee38aca24933bb215f866aec8') in 0.166111 seconds 
